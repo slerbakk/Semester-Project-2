@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en" class="bg-ah-blue">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login - Auction House</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="icon" href="./img/favicon.ico" type="image/x-icon" />
+    <script src="./js/script.js" type="module"></script>
+  </head>
+  <body class="text-center">
+    <header class="bg-ah-header max-w-[1080px] mx-auto rounded-t-md mt-6">
+      <div class="flex justify-between items-center p-4 flex-row">
+        <a href="index.html">
+          <img src="./img/logo.png" alt="Logo" width="150px" />
+        </a>
+        <nav class="font-helvetica">
+          <ul class="flex space-x-4 text-decoration-none text-ah-blue text-lg">
+            <li>
+              <a
+                href="./index.html"
+                class="hover:text-ah-ctahover hover:underline transition hover: duration-150"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                href="./auctions.html"
+                class="hover:text-ah-ctahover hover:underline transition hover: duration-150"
+                >Auctions</a
+              >
+            </li>
+            <li>
+              <a
+                href="./sell.html"
+                class="hover:text-ah-ctahover hover:underline transition hover: duration-150"
+                >Sell</a
+              >
+            </li>
+            <li>
+              <a
+                href="./profile.html"
+                class="hover:text-ah-ctahover hover:underline transition hover: duration-150"
+                >Your Profile</a
+              >
+            </li>
+            <li>
+              <a
+                href="./register.html"
+                class="hover:text-ah-ctahover hover:underline transition hover: duration-150"
+                >Register</a
+              >
+            </li>
+            <li>
+              <a
+                href="login.html"
+                class="text-white bg-ah-ctahover rounded-lg px-5 py-3 transition duration-150"
+                >Sign In</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="max-w-[1080px] mx-auto bg-[#FFFDFA] py-12">
+        <div class="flex flex-col items-center justify-center px-4 md:px-20">
+          <div class="text-center mb-8">
+            <h1 class="text-[2.3rem] font-poppins font-semibold text-ah-blue">
+              Sign In to Your Account
+            </h1>
+            <p class="text-lg text-ah-blue mt-4">
+              Access your account to place bids and track your favorite items
+            </p>
+          </div>
+
+          <div class="w-full max-w-md bg-white p-8 rounded-lg shadow-md">
+            <form class="text-left" id="login-form">
+              <fieldset>
+                <div class="mb-6">
+                  <label
+                    for="email"
+                    class="block text-ah-blue text-lg font-semibold mb-2"
+                    >Email Address</label
+                  >
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-ah-cta"
+                    placeholder="email@stud.noroff.com"
+                    required
+                  />
+                </div>
+
+                <div class="mb-6">
+                  <label
+                    for="password"
+                    class="block text-ah-blue text-lg font-semibold mb-2"
+                    >Password</label
+                  >
+                  <input
+                    type="password"
+                    id="password"
+                    name="password"
+                    class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-ah-cta"
+                    placeholder="••••••••"
+                    required
+                  />
+                </div>
+
+                <div class="flex items-center justify-between mb-6">
+                  <div class="flex items-center">
+                    <input type="checkbox" id="remember" class="mr-2" />
+                    <label for="remember" class="text-ah-blue"
+                      >Remember me</label
+                    >
+                  </div>
+                  <a
+                    href="#"
+                    class="text-ah-cta hover:text-ah-ctahover hover:underline"
+                    >Forgot password?</a
+                  >
+                </div>
+                <div id="message" class="m-4"></div>
+                <button
+                  type="submit"
+                  class="w-full text-white bg-ah-cta rounded-lg px-5 py-3 hover:bg-ah-ctahover transition duration-150 font-helvetica text-lg"
+                >
+                  Sign In
+                </button>
+              </fieldset>
+            </form>
+
+            <div class="mt-8 pt-6 border-t border-gray-200 text-center">
+              <p class="text-ah-blue">
+                Don't have an account?
+                <a
+                  href="./register.html"
+                  class="text-ah-cta hover:text-ah-ctahover hover:underline"
+                  >Register here</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer></footer>
+  </body>
+</html>

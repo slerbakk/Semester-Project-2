@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en" class="bg-ah-blue">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home - Auction House</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="icon" href="./img/favicon.ico" type="image/x-icon" />
+    <script src="./js/script.js" type="module"></script>
+  </head>
+  <body class="text-center">
+    <header class="bg-ah-header max-w-[1080px] mx-auto rounded-t-md mt-6">
+      <div class="flex justify-between items-center p-4 flex-row">
+        <a href="index.html">
+          <img src="./img/logo.png" alt="Logo" width="150px" />
+        </a>
+        <nav class="font-helvetica">
+          <ul class="flex space-x-4 text-decoration-none text-ah-blue text-lg">
+            <li>
+              <a
+                href="#"
+                class="text-ah-ctahover hover:underline transition hover: duration-150 font-semibold"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                href="./auctions.html"
+                class="hover:text-ah-ctahover hover:underline transition hover: duration-150"
+                >Auctions</a
+              >
+            </li>
+            <li>
+              <a
+                href="./sell.html"
+                class="hover:text-ah-ctahover hover:underline transition hover: duration-150"
+                >Sell</a
+              >
+            </li>
+            <li>
+              <a
+                href="./profile.html"
+                class="hover:text-ah-ctahover hover:underline transition hover: duration-150"
+                >Your Profile</a
+              >
+            </li>
+            <li>
+              <a
+                href="./register.html"
+                class="hover:text-ah-ctahover hover:underline transition hover: duration-150"
+                >Register</a
+              >
+            </li>
+            <li>
+              <a
+                href="./login.html"
+                class="text-white bg-ah-cta rounded-lg px-5 py-3 hover:bg-ah-ctahover transition duration-150"
+                >Sign In</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section
+        class="px-20 flex-col md:flex-row max-w-[1080px] mx-auto bg-ah-100 flex justify-between"
+      >
+        <div class="flex flex-col pt-10 text-left">
+          <div>
+            <h1
+              class="text-[3rem] leading-[3.3rem] font-poppins font-semibold text-ah-blue"
+            >
+              Bid on Rare & <br />
+              Unique Items
+            </h1>
+          </div>
+          <div class="text-xl mt-10 text-ah-blue">
+            Participate in our online auctions to discover <br />rare and unique
+            treasures.
+          </div>
+          <div class="mt-14 font-helvetica text-lg">
+            <a
+              href="./auctions.html"
+              class="text-white bg-ah-cta rounded-lg px-5 py-3 hover:bg-ah-ctahover transition duration-150"
+              >Browse Auctions</a
+            >
+          </div>
+        </div>
+        <div class="bg-light text-dark py-6 rounded">
+          <img
+            src="./img/clock.png"
+            alt="Clock Product"
+            class="rounded-lg shadow-lg"
+          />
+        </div>
+      </section>
+      <section
+        class="flex-col md:flex-row max-w-[1080px] mx-auto bg-ah-50 flex text-left"
+      >
+        <div class="flex flex-col w-full">
+          <div class="flex flex-col py-6 px-20 text-left">
+            <h2 class="text-[2.3rem] font-poppins font-semibold text-ah-blue">
+              Featured Auctions
+            </h2>
+          </div>
+          <div
+            class="grid grid-cols-1 md:grid-cols-4 sm:grid-cols-2 gap-6 px-20 py-6"
+          >
+            <!-- Dynamic auctions will be rendered here -->
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer></footer>
+  </body>
+</html>

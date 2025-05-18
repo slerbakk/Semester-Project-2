@@ -1,0 +1,557 @@
+/* Link Styles  */
+a:link {
+  color: #000000;
+  text-decoration: none;
+}
+a:visited {
+  color: #000000;
+}
+
+a:hover {
+  color: #fe3900;
+}
+
+/* H Styles  */
+h1 {
+  font-family: "lato", "sans-serif";
+  font-size: 32px;
+  color: #fe3900;
+}
+
+h2 {
+  font-family: "lato", "sans-serif";
+  font-size: 16px;
+  font-weight: lighter;
+  color: #fe3900;
+}
+
+/* Content Styles  */
+body {
+  margin: 0;
+  text-align: center;
+  font-size: 18px;
+  color: #373736;
+  font-family: "Arial", "sans-serif";
+}
+
+li {
+  display: inline-block;
+  list-style: none;
+  padding-right: 8px;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#logo {
+  height: 80px;
+  width: auto;
+  margin-left: 5px;
+}
+
+/* Input Form Styles  */
+.searchform {
+  font-family: "lato";
+  font-size: 24px;
+  color: #373736;
+  border: solid #9e5440;
+  border-width: 1px;
+  outline-color: #fe3900;
+  background-color: #ffffff;
+  height: 40px;
+  width: 420px;
+  border-radius: 12px 0px 0px 12px;
+}
+
+.name {
+  height: 44px;
+  width: 212px;
+  font: PT Mono;
+  color: #323941;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.email {
+  height: 44px;
+  width: 212px;
+  font: PT Mono;
+  color: #323941;
+  border-radius: 5px 5px 5px 5px;
+
+
+.message {
+  height: 236px;
+  width: 440px;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.rname {
+  height: 44px;
+  width: 327px;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.remail {
+  height: 44px;
+  width: 327px;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.rpassword {
+  height: 44px;
+  width: 327px;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.cardname {
+  height: 44px;
+  width: 326px;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.cardnumber {
+  height: 44px;
+  width: 326px;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.expiration {
+  height: 44px;
+  width: 156px;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.cvv {
+  height: 44px;
+  width: 156px;
+  border-radius: 5px 5px 5px 5px;
+}
+
+/* Button Styles  */
+.purchase {
+  width: 90px;
+  height: 44px;
+  color: #ffffff;
+  background-color: #fe3900;
+  border: solid #fe3900;
+  outline-color: #fe3900;
+  border-radius: 12px 12px 12px 12px;
+  margin-top: 18px;
+  margin-left: 150px;
+}
+
+.searchbutton {
+  width: 90px;
+  height: 44px;
+  background-color: #fe3900;
+  border: solid #fe3900;
+  outline-color: #fe3900;
+  border-radius: 0px 12px 12px 0px;
+  margin-top: 13px;
+}
+
+.submit {
+  width: 90px;
+  height: 44px;
+  color: #ffffff;
+  background-color: #fe3900;
+  border: solid #fe3900;
+  outline-color: #fe3900;
+  border-radius: 12px 12px 12px 12px;
+  margin-top: 18px;
+}
+
+.login {
+  width: 90px;
+  height: 44px;
+  color: #ffffff;
+  background-color: #fe3900;
+  border: solid #fe3900;
+  outline-color: #fe3900;
+  border-radius: 12px 12px 12px 12px;
+}
+
+/* Menu Styles  */
+#menu {
+  font-family: "lato";
+  font-size: 18px;
+  margin-right: 5px;
+  margin-top: 21px;
+}
+
+.cart {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  padding-left: 15%;
+  padding-top: 5%;
+}
+
+.mycart {
+  height: 156px;
+  width: 108px;
+}
+
+#cartlink a:link {
+  color: #fe3900;
+}
+
+#payment {
+  padding-left: 45%;
+}
+
+#signin {
+  color: #fe3900;
+  text-decoration: underline;
+}
+
+/* Background Styles  */
+.moviebg {
+  display: flex;
+  overflow: hidden;
+  justify-content: space-between;
+  background-color: #141414;
+  height: 360px;
+  max-width: 100%;
+  width: auto;
+}
+
+.moviebglarge {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #141414;
+  height: auto;
+  max-width: 100%;
+  width: auto;
+}
+
+.moviebgsmall {
+  background-color: #141414;
+  height: 64px;
+  max-width: 100%;
+  width: auto;
+}
+
+/* Movie Cover Styles  */
+.slidermovies {
+  flex-shrink: 1;
+  margin-top: 23px;
+  height: 312px;
+  width: 200px;
+}
+
+.movielisted {
+  height: 156px;
+  width: 107px;
+  padding-left: 60px;
+}
+
+.rightside {
+  margin-left: auto;
+  padding-top: 23px;
+  padding-right: 5%;
+  color: #dddddd;
+}
+
+/* Cathegory Styles  */
+.category {
+  white-space: nowrap;
+  padding-top: 30px;
+  height: 156px;
+  width: 107px;
+}
+
+.action {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.comedy {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.horror {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.animated {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.catlist {
+  display: list-item;
+  font-size: 13px;
+  text-align: left;
+  text-indent: -5px;
+  line-height: 0.3;
+  list-style-type: disc;
+}
+
+/* Flex Side Styles  */
+.leftside h1 {
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  text-align: left;
+  margin-left: 60px;
+  margin-top: 20px;
+}
+
+.rightside h2 {
+  padding-top: 10px;
+  padding-right: 30px;
+  text-align: left;
+}
+
+/* Slide Arrows */
+.downslide {
+  margin-top: 15px;
+  opacity: 56%;
+}
+
+.linkgenre {
+  padding-left: 60px;
+}
+
+#leftslider {
+  width: 50px;
+  height: 229px;
+  background-color: #000000;
+  opacity: 56%;
+  margin-top: 64px;
+  border-radius: 0px 10px 10px 0px;
+}
+
+#rightslider {
+  width: 50px;
+  height: 229px;
+  background-color: #000000;
+  opacity: 56%;
+  margin-top: 64px;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.slideLeft {
+  padding-top: 80px;
+}
+
+.slideRight {
+  padding-top: 80px;
+  padding-left: 9px;
+}
+
+/* Footer */
+.footer {
+  padding-top: 10px;
+  padding-left: 140px;
+  font-size: 12px;
+  text-align: center;
+}
+
+.socials {
+  padding-right: 38px;
+}
+
+.icon {
+  float: right;
+  padding-right: 8px;
+}
+
+@media screen and (max-width: 1800px) {
+  .rightside {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  body {
+    margin: 0;
+  }
+
+  ul {
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: space-between;
+  }
+
+  header {
+    flex-direction: column;
+    margin: auto;
+  }
+
+  .search {
+    margin: auto;
+  }
+
+  .superbad {
+    height: 462px;
+    width: 506px;
+  }
+
+  #logo {
+    height: 80px;
+    width: auto;
+    margin: auto;
+  }
+
+  .moviebg {
+    background-color: #141414;
+    height: 217px;
+    width: auto;
+  }
+
+  #menu {
+    margin-top: 0px;
+  }
+
+  .rightside {
+    display: none;
+  }
+
+  .slidermovies {
+    flex-shrink: 1;
+    object-fit: contain;
+    margin-top: 40px;
+    height: 65%;
+    width: 65%;
+  }
+
+  #leftslider {
+    width: 50px;
+    height: 150px;
+    background-color: #000000;
+    opacity: 56%;
+    margin-top: 32px;
+    border-radius: 0px 10px 10px 0px;
+  }
+
+  #rightslider {
+    width: 50px;
+    height: 150px;
+    background-color: #000000;
+    opacity: 56%;
+    margin-top: 32px;
+    border-radius: 10px 0px 0px 10px;
+  }
+
+  .slideLeft {
+    padding-top: 40px;
+  }
+
+  .slideRight {
+    padding-top: 40px;
+    padding-left: 9px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .search {
+    display: none;
+  }
+
+  .superbad {
+    height: 462px;
+    width: 506px;
+  }
+
+  .rightside {
+    display: none;
+  }
+
+  .cart {
+    flex-direction: column;
+  }
+
+  #payment {
+    padding-left: 0%;
+  }
+}
+
+.slidermovies:last-child {
+  display: none;
+}
+
+.message {
+  height: 236px;
+  width: 212px;
+  border-radius: 5px 5px 5px 5px;
+}
+
+#menu {
+  font-family: "lato";
+  font-size: 14px;
+}
+
+/* Input Form Styles  */
+.name {
+  height: 44px;
+  width: 156px;
+  font: PT Mono;
+  color: #323941;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.email {
+  height: 44px;
+  width: 156px;
+  font: PT Mono;
+  color: #323941;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.message {
+  height: 236px;
+  width: 320px;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.rname {
+  height: 44px;
+  width: 320px;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.remail {
+  height: 44px;
+  width: 320px;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.rpassword {
+  height: 44px;
+  width: 320px;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.cardname {
+  height: 44px;
+  width: 320px;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.cardnumber {
+  height: 44px;
+  width: 320px;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.expiration {
+  height: 44px;
+  width: 320px;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.cvv {
+  height: 44px;
+  width: 320px;
+  border-radius: 5px 5px 5px 5px;
+}

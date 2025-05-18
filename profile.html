@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en" class="bg-ah-blue">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile - Auction House</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="icon" href="./img/favicon.ico" type="image/x-icon" />
+    <script src="./js/script.js" type="module"></script>
+  </head>
+  <body class="text-center">
+    <header class="bg-ah-header max-w-[1080px] mx-auto rounded-t-md mt-6">
+      <div class="flex justify-between items-center p-4 flex-row">
+        <a href="index.html">
+          <img src="./img/logo.png" alt="Logo" width="150px" />
+        </a>
+        <nav class="font-helvetica">
+          <ul class="flex space-x-4 text-decoration-none text-ah-blue text-lg">
+            <li>
+              <a
+                href="index.html"
+                class="hover:text-ah-ctahover hover:underline transition hover: duration-150"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                href="./auctions.html"
+                class="hover:text-ah-ctahover hover:underline transition hover: duration-150"
+                >Auctions</a
+              >
+            </li>
+            <li>
+              <a
+                href="./sell.html"
+                class="hover:text-ah-ctahover hover:underline transition hover: duration-150"
+                >Sell</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="text-ah-ctahover hover:underline transition hover: duration-150 font-semibold"
+                >Your Profile</a
+              >
+            </li>
+            <li>
+              <a
+                href="./register.html"
+                class="hover:text-ah-ctahover hover:underline transition hover: duration-150"
+                >Register</a
+              >
+            </li>
+
+            <li>
+              <a
+                href="./login.html"
+                class="text-white bg-ah-cta rounded-lg px-5 py-3 hover:bg-ah-ctahover transition duration-150"
+                >Sign Out</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- Profile Banner Section -->
+      <section class="max-w-[1080px] mx-auto bg-ah-100 relative">
+        <div
+          class="h-48 w-full bg-ah-blue rounded-t-md overflow-hidden"
+          id="profile-banner"
+        >
+          <img
+            src="/"
+            alt="Profile Banner"
+            class="w-full h-full object-cover"
+          />
+        </div>
+
+        <!-- Profile Avatar -->
+        <div class="absolute left-20 top-24">
+          <div
+            class="rounded-full w-32 h-32 border-4 border-white bg-white overflow-hidden"
+            id="profile-avatar"
+          >
+            <img
+              src="/"
+              alt="Profile Avatar"
+              class="w-full h-full object-cover"
+            />
+          </div>
+        </div>
+
+        <!-- Profile Info & Bio -->
+        <div class="pt-20 pl-20 pr-20 pb-10 text-left">
+          <h1
+            class="text-[2.5rem] font-poppins font-semibold text-ah-blue"
+            id="profile-name"
+          ></h1>
+          <div class="mt-6 bg-white p-6 rounded-lg shadow-sm">
+            <h2 class="text-xl font-poppins font-semibold text-ah-blue mb-3">
+              About Me
+            </h2>
+            <p class="text-ah-blue" id="profile-bio"></p>
+          </div>
+
+          <div class="flex mt-6 space-x-6">
+            <!-- Edit Profile Button -->
+            <button
+              id="edit-profile-button"
+              class="bg-ah-cta text-white px-5 py-3 rounded hover:bg-ah-ctahover transition duration-150"
+            >
+              Edit Profile
+            </button>
+          </div>
+          <!-- Update Profile Section (Initially Hidden) -->
+          <section id="update-profile" class="py-6 px-20 hidden">
+            <h2 class="text-2xl font-semibold mb-4">Update Profile</h2>
+            <form id="update-profile-form">
+              <div class="mb-4">
+                <label for="bio" class="block text-lg font-medium">Bio</label>
+                <textarea
+                  id="bio"
+                  class="w-full border rounded p-2"
+                  placeholder="Enter your bio"
+                ></textarea>
+              </div>
+              <div class="mb-4">
+                <label for="avatar-url" class="block text-lg font-medium"
+                  >Avatar URL</label
+                >
+                <input
+                  type="url"
+                  id="avatar-url"
+                  class="w-full border rounded p-2"
+                  placeholder="Enter avatar image URL"
+                />
+              </div>
+              <div class="mb-4">
+                <label for="banner-url" class="block text-lg font-medium"
+                  >Banner URL</label
+                >
+                <input
+                  type="url"
+                  id="banner-url"
+                  class="w-full border rounded p-2"
+                  placeholder="Enter banner image URL"
+                />
+              </div>
+              <button
+                type="button"
+                id="update-profile-button"
+                class="bg-ah-cta text-white px-5 py-3 rounded hover:bg-ah-ctahover transition duration-150"
+              >
+                Update Profile
+              </button>
+            </form>
+          </section>
+        </div>
+      </section>
+
+      <!-- User's Auctions Section -->
+      <section class="max-w-[1080px] mx-auto bg-ah-50 py-10 px-20">
+        <div class="flex flex-col text-left mb-8">
+          <h2 class="text-[2.3rem] font-poppins font-semibold text-ah-blue">
+            My Auctions
+          </h2>
+        </div>
+
+        <!-- Auction Items -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+          <!-- Listings will be dynamically populated here -->
+        </div>
+
+        <!-- Add New Item Button -->
+        <div class="mt-10 text-center">
+          <a
+            href="./sell.html"
+            class="text-white bg-ah-cta rounded-lg px-8 py-3 hover:bg-ah-ctahover transition duration-150 font-helvetica text-lg inline-block"
+          >
+            Add New Item
+          </a>
+        </div>
+      </section>
+
+      <!-- Stats Section -->
+      <section class="max-w-[1080px] mx-auto bg-ah-100 py-10 px-20">
+        <div class="flex flex-col text-left mb-8">
+          <h2 class="text-[2.3rem] font-poppins font-semibold text-ah-blue">
+            My Bids
+          </h2>
+        </div>
+        <div
+          id="profile-bids"
+          class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6"
+        >
+          <!-- Bids will be dynamically populated here -->
+        </div>
+      </section>
+    </main>
+
+    <footer></footer>
+  </body>
+</html>
